@@ -1,0 +1,21 @@
+<script type="text/javascript">
+
+function Check() {
+    if (document.getElementById('siCheck').checked) {
+        document.getElementById('ok').style.display = 'block';
+    }
+    else document.getElementById('ok').style.display = 'none';
+
+}
+
+</script>
+ Nouveau Client <input type="radio" onclick="javascript:Check();" name="yesno" id="siCheck">
+ Ancien Client <input type="radio" onclick="javascript:Check();" name="yesno" id="sinoCheck"><br>
+
+        other 3<input type='text' id='other3' name='other3'><br>
+        other 4<input type='text' id='other4' name='other4'><br>
+    <div id="ok" style="display:none">
+        If yes, explain: <input type='text' id='yes' name='yes'><br>
+        What carrrrrrrrr <input type='text' id='acc' name='acc'>
+    </div>
+      
